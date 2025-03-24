@@ -74,6 +74,10 @@ const bodyParser = require('body-parser');
 //    mit welchem Kunden er es zu tun hat. So ermöglichen wir, dass mehrere Kunden gleichzeitig
 //    mit dem Server interagieren können.
 
+<form method="post">            
+            <label>Mail-Adresse</label></br>
+            <input type="text" name="Email" value=<%= Email %>>
+
 
 
 const cookieParser = require('cookie-parser')
@@ -171,6 +175,23 @@ app.get('/agb', (req, res) => {
 		});
 	}
 });
+
+
+app.get('/postfach', (req, res) => {
+
+	if(kunde.IstEingeloggt){
+
+		res.render('login.ejs',{});
+
+	}else{
+		
+		res.render('postfach.ejs',{
+			Meldung: "Melden Sie sich zuerst an."
+		});
+	}
+});
+
+
 
 app.get('/hilfe', (req, res) => {
 

@@ -10,6 +10,14 @@ Am Ende müssen Sie Ihr Projekt commiten und pushen. Senden Sie mir den Link in 
 ## Aufgabe 2
 
 Beantworten Sie die folgenden Frage hier direkt im Text: Welche Aufgabe haben cookies in unserer Banking-App?
+Cookies speichern in unserer Banking-App die Informationen des Kunden auf seinem Gerät. Dadurch kann zum Beispiel das Passwort gespeichert werden und der Kunde muss es nicht jedes Mal neu eingeben. 
+
+
+Warum sind Passkeys besser als die Kombination aus Benutzername / Kennwort?
+Weil man sich bei Passkeys keine Passwörter merken muss, sondern die Authentifizierung durch z.B. den Fingerabdruck erfolgt, 
+dadurch ist es sicherer, da kein Phising geschehen kann. Außerdem bestehen Passkeys aus einem öffentlichen und einem 
+privaten Schlüssel, wobei der private Schlüssel nur auf dem eigenen Gerät bleibt und es ist für andere Menschen unmöglich, die Zahlenkombination herauszufinden.
+
 
 ## Aufgabe 3
 
